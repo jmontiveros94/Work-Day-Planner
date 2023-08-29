@@ -22,16 +22,16 @@ $(function () {
   // TODO: Add code to display the current date in the header of the page.
   //Gets the current date
   var currentDate = new Date();
-  const currentDateElement = document.getElementById("current-date");
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const formattedDate = currentDate.toLocaleDateString('en-US', options);
+  var currentDateElement = document.getElementById("current-date");
+  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  var formattedDate = currentDate.toLocaleDateString('en-US', options);
 
   currentDateElement.textContent = "Today's Date: " + formattedDate;
 
   // Tells the elements where I want them displayed: (i.e. 'header')
   var headerElement = document.getElementById("Work Day Scheduler");
   // Formats the date to the current day
-  var formatDate = currentDate.toDateString();
+  var formatDate = currentDate.toDateString('Today is ');
   // Sets the current date to the header string
   headerElement.innerHTML = "Current Date: " + formattedDate;
 
