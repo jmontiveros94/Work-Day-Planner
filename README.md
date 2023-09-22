@@ -1,6 +1,14 @@
 # Work-Day-Planner
 
 A work day calendar to help organize tasks during the day
+
+# Site
+
+https://jmontiveros94.github.io/Work-Day-Planner/
+# Screenshot 
+
+
+
 # Features 
 
 The Work Day planner will allow a user to save events for each hour of a typical working day. The user will be able to enter information into the text fields into the work day planer hour fields. Upon pressing the save button, when the user refreshes the page, the data will be saved to local storage. The user will also see the past, current, and future hours immediately upon the page loading 
