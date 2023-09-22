@@ -36,13 +36,13 @@ $(document).ready(function () {
   var currentHour = currentDate.getHours()
   console.log(currentHour)
   // This is where the color coding comes in 
-  // Lines 105-109 parse the time as numbers since javascript doesnt read time 
+  // Lines 39-43 parse the time as numbers since javascript doesnt read time 
   $('.time-block').each(function () {
     var timeHour = parseInt($(this).attr('id').split('-')[1])
     if (timeHour < 9) {
       timeHour += 12
     }
-    // lines 111-
+    // lines 46-57 change the color of each timeblock based on the hour that it is and the corresponding class in CSS 
     if (timeHour < currentHour) {
       $(this).addClass('past')
       $(this).removeClass('present')
