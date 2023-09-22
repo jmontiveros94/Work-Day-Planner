@@ -6,6 +6,7 @@ A work day calendar to help organize tasks during the day
 
 https://jmontiveros94.github.io/Work-Day-Planner/
 # Screenshot 
+<img width="1470" alt="Screenshot 2023-09-21 at 10 23 45 PM" src="https://github.com/jmontiveros94/Work-Day-Planner/assets/134089282/ae2f2479-2f2e-4068-8308-faf885d60589">
 
 
 
